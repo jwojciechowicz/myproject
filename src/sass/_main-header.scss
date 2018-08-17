@@ -1,0 +1,33 @@
+.main-header {
+    background-color: $color-main-green;
+}
+
+.main-logo {
+    float: left;
+    margin: 40px 0;
+}
+
+.main-nav {
+    float: right;
+    margin: 70px 0 55px;
+
+
+    li {
+        display: inline-block;
+        color: $color-text-green;
+        text-transform: uppercase;
+        margin-left: 32px;
+        font-size: 13px;
+        text-decoration: underline;
+
+        &:first-child {
+            margin-left: 0;
+        }
+
+        &.is-active {
+            color: $color-white;
+        }
+
+    }
+}
+

@@ -1,0 +1,32 @@
+.splash-screen {
+    background-color: $color-grey;
+    border-top: 2px solid $color-white;
+    border-bottom: 1px solid $color-white;
+
+    .banner {
+        @include clearfix;
+        background-color: $color-light-grey;
+        color: $color-green;
+        margin-top: 15px;
+        border: 1px solid $color-white;
+
+        img {
+            float: right;
+        }
+
+        figcaption {
+            text-align: center;
+            padding-top: 100px;
+            line-height: 1.7;
+        }
+        h1 {
+            font-size: 30px;
+            margin: 0;
+            font-weight: 400;
+        }
+        p {
+            margin: 0;
+            font-size: 25px;
+        }
+    }
+}

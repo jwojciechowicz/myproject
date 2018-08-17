@@ -1,0 +1,50 @@
+.practice-page-sidebar {
+
+    float: left;
+    padding-right: 15px;
+    width: 30%;
+    border-right: 1px dotted $color-white;
+    box-sizing: border-box;
+    color: $color-dark-grey;
+
+    h2 {
+        text-transform: uppercase;
+        padding-top: 20px;
+        border-bottom: 1px dotted $color-white;
+        padding-bottom: 15px;
+        margin: 0;
+        font-weight: 500;
+        font-size: 17px;
+
+    }
+
+    ul {
+        display: block;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        background-color: $color-light-grey;
+
+    }
+
+    li {
+        color: $color-green;
+        display: block;
+        padding: 7px 0 20px 0;
+        border-bottom: 1px dotted $color-white;
+        font-size: 15px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    cite {
+        float: right;
+        font-size: 14px;
+        color: $color-dark-grey;
+        font-family: $secondary-font-stack;
+        font-style: normal;
+    }
+
+}

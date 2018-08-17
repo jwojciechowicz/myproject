@@ -1,0 +1,75 @@
+.main-footer {
+
+    .footer-section {
+        @include clearfix;
+        background-color: $color-grey;
+        color: $color-dark-grey;
+        font-size: 13px;
+        line-height: 1.6;
+        border: 2px solid $color-white;
+
+        h3 {
+            text-transform: uppercase;
+            font-weight: 600;
+            margin-top: 37px;
+        }
+
+        .footer-news {
+            width: 33%;
+            float: left;
+            box-sizing: border-box;
+            padding: 0 30px;
+
+        }
+
+        .footer-contact {
+            width: 33%;
+            float: left;
+            box-sizing: border-box;
+            padding: 0 30px;
+
+        }
+
+        .footer-message {
+            width: 33%;
+            float: left;
+            box-sizing: border-box;
+            padding: 0 30px;
+
+        }
+
+        .button-secondary {
+            color: $color-white;
+            text-transform: uppercase;
+            background-color: $color-dark-grey;
+            padding: 14px;
+            margin-bottom: 37px;
+            display: inline-block;
+            box-shadow: 1px 1px 0 0 rgba($color-dark-grey, .8);
+        }
+    }
+
+    .footer-bar-section {
+        @include clearfix;
+        background-color: $color-green;
+        padding-right: 10px;
+        color: $color-white;
+        padding-top: 20px;
+        padding-bottom: 15px;
+        font-size: 11px;
+
+        img {
+            padding-left: 5px;
+            float: left;
+        }
+
+        p {
+            float: right;
+            margin: 0;
+            text-decoration: underline;
+
+        }
+    }
+}
+
+

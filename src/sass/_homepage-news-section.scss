@@ -1,0 +1,41 @@
+.homepage-news-section {
+    padding-top: 25px;
+    background-color: $color-lighter-grey;
+    border-bottom: 1px solid $color-white;
+    padding-bottom: 45px;
+
+    .article-item {
+        width: 65%;
+        float: left;
+        padding-left: 10px;
+        box-sizing: border-box;
+
+        h2 {
+            margin: 0;
+            font-size: 32px;
+            color: $color-main-green;
+            font-weight: 400;
+            margin-bottom: 27px;
+        }
+        p{
+            font-size: 14px;
+            font-family: $secondary-font-stack;
+            color: $color-dark-grey;
+            line-height: 1.6;
+            margin: 0;
+
+
+        }
+    }
+    .testimonial-item {
+        width: 35%;
+        float: left;
+        padding-left: 70px;
+        box-sizing: border-box;
+        padding-top: 10px;
+
+
+
+
+    }
+}

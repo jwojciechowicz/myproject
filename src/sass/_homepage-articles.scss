@@ -1,0 +1,54 @@
+.homepage-articles {
+    @include clearfix;
+    background-color: $color-light-grey;
+    color: $color-dark-grey;
+    font-family: $secondary-font-stack;
+    border-bottom: 1px solid $color-white;
+    h2 {
+        font-weight: 500;
+        font-size: 19px;
+        text-transform: uppercase;
+        padding-left: 10px;
+        color: $color-green;
+    }
+    h3 {
+        font-size: 14px;
+        text-transform: uppercase;
+        margin-top: 37px;
+    }
+    p {
+        font-size: 14px;
+    }
+    .article-image {
+        @include clearfix;
+        background-color: $color-white;
+        padding: 9px;
+        border: 1px solid $color-shadow-grey;
+
+    }
+    img {
+        width: 100%;
+        float: left;
+        box-shadow: 0 0 3px 0 rgba($color-black, .5);
+    }
+
+    .article-box {
+        width: 25%;
+        box-sizing: border-box;
+        display: inline-block;
+        float: left;
+        padding: 0 13px;
+    }
+    .button-primary {
+        background-color: $color-dark-grey;
+        color: $color-white;
+        box-shadow: 1px 1px 0 0 rgba($color-dark-grey, .8);
+        text-transform: uppercase;
+        padding: 8px;
+        font-size: 12px;
+        margin-bottom: 40px;
+        display: inline-block;
+    }
+
+}
+
